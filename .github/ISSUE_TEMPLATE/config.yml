@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question
+    url: https://github.com/ianalloway/browser-agent-benchmark/discussions
+    about: For questions about using the checklist, start a discussion.
