@@ -38,4 +38,4 @@ If an agent claims it posted, submitted, updated, or paid for something, it shou
 
 ## Use this checklist
 
-See [`checklist.md`](./checklist.md) for a compact evaluation rubric.
+See [`checklist.md`](./checklist.md) for a compact, scored evaluation rubric with production-ready gates and critical-failure conditions.

@@ -2,6 +2,20 @@
 
 Use this as a quick rubric for deciding whether a browser agent is demo-grade or production-grade.
 
+## Scoring
+
+Score every item as:
+
+- `0` — not implemented, untested, or only works in a hand-crafted demo.
+- `1` — implemented but brittle, partial, or missing durable receipts.
+- `2` — implemented, exercised on a real site, and backed by repeatable proof.
+
+Recommended gate:
+
+- **Production-ready:** at least 80% of possible points, with no critical failures.
+- **Demo-grade:** anything below that bar, or any workflow that depends on unverifiable claims.
+- **Critical failure:** credential leakage, cookie/token exfiltration, destructive action without final-state proof, or reporting success from process exit alone.
+
 ## Authentication
 
 - [ ] Can reuse an existing browser profile without re-login.
